@@ -1,0 +1,17 @@
+# Local terraform files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform/
+# Terraform variable files
+terraform.tfvars
+
+# Sensitive keys
+*.json
+!example-variables.json  # if you want to keep a non-sensitive example
+
+# Crash logs
+crash.log
+terraform-sa-key.json
